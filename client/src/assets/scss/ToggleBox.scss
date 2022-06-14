@@ -1,0 +1,29 @@
+.togglebox-container {
+  border-radius: 16px;
+  cursor: pointer;
+  position: relative;
+  align-items: center;
+  background-color: rgb(40, 23, 130);
+  box-sizing: border-box;
+  padding: 4px;
+  width: 66px;
+  height: 33px;
+
+
+  &.active {
+    background-color: rgb(3, 235, 250);
+
+    .tooglebox-dot{
+      left: 35px;
+    }
+  }
+
+  .tooglebox-dot {
+    border-radius: 50%;
+    position: absolute;
+    background-color: rgb(27, 14, 96);
+    width: 27px;
+    height: 26px;
+    left: 5px;
+  }
+}

@@ -1,0 +1,12 @@
+bep20 token
+
+nfttoken
+0x54304ae48fe4aeD77BAF3A59536A97f6C6951dCf
+
+marketplace
+
+0x111d0cf80be910759E084Ef54cEBc69a71c480BA
+
+arttoken
+
+0xa0D7A82e8ba92f9E43291f76C26bfe53E1a1141F

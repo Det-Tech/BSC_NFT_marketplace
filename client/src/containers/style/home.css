@@ -1,0 +1,13 @@
+.content {
+  padding: 20px 200px;
+}
+@media only screen and (max-width: 1500px) {
+  .content {
+    padding: 20px 100px;
+  }
+}
+@media only screen and (max-width: 750px) {
+  .content {
+    padding: 20px 10px;
+  }
+}

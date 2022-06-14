@@ -1,0 +1,739 @@
+#root{
+  background-color: #1B0E60;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+hr{
+  background-color: #2d216c;
+}
+
+.x-cursor-pointer{
+  cursor: pointer;
+}
+.x-light-blue-color{
+color: #97a4fe;
+}
+
+.x-font-normal-white{
+  font-size: 15px;
+  color: white;
+}
+.x-font-normal-white1{
+  font-size: 20px;
+  color: white;
+  font-weight: 500;
+}
+.x-font-short-white{
+  font-size: 17px;
+  color: white;
+}
+.x-font-big-white{
+  font-size: 29px;
+  color: white;
+}
+.x-font-big-blue{
+  font-size: 30px;
+  color: #03ebfa;
+  font-family: system-ui;
+  font-weight: 600;
+}
+.x-font-normal-blue{
+  font-size: 15px;
+  color: #03ebfa;
+  font-family: system-ui;
+  font-weight: 400;
+}
+.x-font-normal-blue1{
+  font-size: 20px;
+  color: #03ebfa;
+  font-family: system-ui;
+  font-weight: 600;
+}
+.x-font-normal-yellow{
+  font-size: 15px;
+  color: #f3e558;
+  font-family: system-ui;
+  font-weight: 400;
+}
+.x-font-normal-yellow1{
+  font-size: 18px;
+  color: #f3e558;
+  font-family: system-ui;
+  font-weight: 600;
+}
+.x-font-small-grey{
+  font-size: 13px;
+  color: #716c8b;
+}
+.x-font-normal-grey{
+  font-size: 18px;
+  color: #716c8b;
+  font-weight: 600;
+}
+.x-font-orange-white{
+  font-size: 31px;
+  color: #ef4a23;
+  font-weight: 600;
+}
+
+.diceGrid {
+  width: 70% !important;
+  margin-left: 15% !important;
+  margin-top: 3% !important;
+  margin-bottom: 3% !important;
+}
+.diceGrid-short{
+  width: 50% !important;
+  margin-left: 25% !important;
+  margin-top: 3% !important;
+  margin-bottom: 3% !important;
+}
+.diceGrid-nopadding{
+  width: 70% !important;
+  margin-left: 15% !important;
+}
+.diceGrid-nopadding-short{
+  width: 50% !important;
+  margin-left: 25% !important;
+}
+.x-container-padding{
+  padding: 15px;
+  background-color: #160b4c;
+}
+.x-beside-padding-container{
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 10px;
+  outline: none;
+}
+.x-create-title{
+  background-color: #1e106a;
+  width: 100%;
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 1em;
+}
+.x-backbutton{
+  background-color: #1e106a!important;
+  color: white!important;
+}
+.x-create-title-text{
+  width: 100%;
+  height: 100%;
+  display: inline-block;
+  color: white;
+}
+.x-create-collect-img{
+  width: 100%;
+  cursor: pointer;
+}
+.x-create-collect-img:hover{
+  background-color: aqua;
+  opacity: 0.5;
+}
+.x-home-filter{
+display: flex;
+}
+.x-home-filter-button{
+  border: none;
+  color: white;
+  margin-right: 5px;
+  width: 100%;
+  height: 100%;
+  background-color: #1b0e60!important;
+}
+.x-home-filter-button:focus{
+  border: none;
+  color: #07c8da;
+  margin-right: 5px;
+  width: 100%;
+  height: 100%;
+  background-color: #1b0e60!important;
+  outline: none;
+}
+.x-user-content{
+  margin-left: 10%;
+  width: 80%;
+}
+.x-user-cover{
+  width: 100%;
+}
+.x-user-cover .MuiBadge-root{
+  left: calc(50% - 50px);
+  top: -50px;
+}
+.MuiBadge-root .MuiAvatar-root{
+  width: 100px;
+  height: 100px;
+  border: 3px solid white;
+}
+.x-user-followbutton {
+  border: none;
+  font-family: initial;
+  outline: none !important;
+  border-radius: 50px !important;
+  color: #e0e0e0 !important;
+  font-size: 22px !important;
+  background-image: linear-gradient( to right,#e13207 0%,#f57921 100% );
+  width: 100px;
+  height: 40px;
+}
+.x-user-uploadbutton {
+  border: 2px solid white;
+  font-family: initial;
+  outline: none !important;
+  border-radius: 50px !important;
+  color: #e0e0e0 !important;
+  font-size: 22px !important;
+  width: 40px;
+  height: 40px;
+  background-color: transparent;
+}
+.x-user-activity-portal{
+  background-color: #160b4c;
+  padding: 10px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+.MuiBadge-badge .MuiAvatar-root{
+  width: 30px;
+  height: 30px;
+}
+.x-activity-reset-filter-button{
+  border: none;
+  color: #6167b5;
+  font-size: 20px;
+  background-color: #1b0e60!important;
+}
+.x-activity-reset-feature-button {
+  border: 2px solid white;
+  font-family: initial;
+  outline: none !important;
+  border-radius: 50px !important;
+  color: #e0e0e0 !important;
+  font-size: 15px !important;
+  width: 100%;
+  height: 40px;
+  background-color: transparent;
+  text-align: left;
+}
+.MuiDialog-container .MuiPaper-root{
+  width: 300px;
+  height: 500px;
+  background-color: #1b0e60;
+  border-radius: 10px;
+}
+.x-following-modal-title{
+  width: 300px;
+  background-color: #1b0e60;
+  overflow: hidden;
+  position: fixed;
+  z-index: 6;
+}
+.x-following-modal-body{
+  margin-top: 100px;
+}
+.x-following-modal-close-button{
+  margin-left: 115px;
+  width: 30px!important;
+  height: 30px;
+  outline: none;
+  border: none;
+  background-color: #1b0e60;
+}
+.x-following-modal-close-button:focus{
+  outline: none;
+}
+.MuiList-root .MuiButtonBase-root .MuiListItemAvatar-root .MuiAvatar-root{
+  width: 48px;
+  height: 48px;
+}
+.x-followings-modal-first-text{
+  font-size: 12px!important;
+  color: #7e89d9;
+}
+.x-followings-modal-second-text{
+  color: white;
+  font-weight: 500;
+}
+.x-followings-modal-follow-button{
+  position: absolute;
+  right: 9px;
+  outline: none !important;
+  border: none;
+  border-radius: 50px !important;
+  color: #e0e0e0 !important;
+  font-family: Poppins;
+  font-size: 22px !important;
+  font-weight: bold !important;
+  background-image: linear-gradient( to right,#df3207 0%,#f37820 100% );
+  width: 80px;
+  height: 35px;
+}
+.x-connect-wallet-button0{
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  background-color: #e09959;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: white;
+}
+.x-connect-wallet-button0:focus{
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  background-color: #e09959;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: white;
+}
+.x-connect-wallet-button1{
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  background-color: #6851ff;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: white;
+}
+.x-connect-wallet-button1:focus{
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  background-color: #6851ff;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: white;
+}
+
+.x-connect-wallet-button2{
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  background-color: #3797fc;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+.x-connect-wallet-button2:focus{
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  background-color: #3797fc;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: white;
+}
+.x-connect-wallet-button3{
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  background-color: #215aec;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+.x-connect-wallet-button3:focus{
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  background-color: #215aec;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: white;
+}
+.x-connect-wallet-button4{
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  background-color: #1a96a4;
+  border-radius: 10px;
+  border: none;
+  color: white;
+}
+.x-connect-wallet-button4:focus{
+  padding: 10px;
+  width: 100%;
+  text-align: left;
+  background-color: #1a96a4;
+  border-radius: 10px;
+  border: none;
+  outline: none;
+  color: white;
+}
+#connect-wallet-modal .MuiDialog-container .MuiPaper-root{
+  width: 400px!important;
+  height: 250px;
+  background-color: #09e1f6;
+}
+#x-connect-wallet-modal-header{
+  text-align: center;
+}
+.x-connect-wallet-header-close-button{
+  width: 35px;
+  position: absolute;
+  right: 5px;
+  top: 5px;
+  cursor: pointer;
+}
+#x-connect-wallet-modal-body{
+  text-align: center;
+  font-size: 13px;
+  color: black;
+  font-weight: 700;
+}
+#x-connect-wallet-modal-footer{
+  text-align: center;
+  display: block;
+}
+.x-connect-wallet-modal-footer-button{
+  border-radius: 19px;
+  background-image: linear-gradient( -90deg, rgb(244,122,32) 0%, rgb(223,49,7) 100%);
+  width: 172px;
+  height: 39px;
+  font-size: 14px;
+  border: none;
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+  line-height: 1.2;
+  outline: none;
+}
+.x-connect-wallet-modal-footer-button:focus{
+  outline: none;
+}
+.x-product-img{
+  width: 100%;
+}
+.x-heart-round-transparent-button{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #3e3378;
+}
+.x-heart-round-transparent-button:focus{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #3e3378;
+  outline: none;
+}
+.x-zoom-round-transparent-button{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #3e3378;
+}
+.x-zoom-round-transparent-button:focus{
+  width: 40px;
+  height: 40px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #3e3378;
+  outline: none;
+}
+.x-more-round-transparent-button{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #3e3378;
+}
+.x-more-round-transparent-button:focus{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #3e3378;
+  outline: none;
+}
+.x-upload-round-transparent-button{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #3e3378;
+}
+.x-upload-round-transparent-button:focus{
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #3e3378;
+  outline: none;
+}
+.x-art-radius-transparent-button{
+  width: 100%;
+  height: 45px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #3e3378;
+}
+.x-art-radius-transparent-button:focus{
+  width: 100%;
+  height: 45px;
+  border-radius: 50%;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #3e3378;
+  outline: none;
+}
+.x-art-fixedSize-transparent-button{
+  width: 150px;
+  height: 45px;
+  border-radius: 15px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #3e3378;
+  font-size: 19px;
+  font-family: initial;
+}
+.x-art-fixedSize-transparent-button:focus{
+  width: 150px;
+  height: 45px;
+  border-radius: 15px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #3e3378;
+  font-size: 19px;
+  font-family: initial;
+  outline: none;
+}
+.x-radius-transparent-button{
+  width: fit-content;
+  height: 40px;
+  border-radius: 30px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #3e3378;
+}
+.x-radius-transparent-button:focus{
+  width: fit-content;
+  height: 40px;
+  border-radius: 30px;
+  background-color: transparent;
+  color: white;
+  border: 2px solid #3e3378;
+  outline: none;
+}
+.x-product-bid-container{
+  width: 100%;
+  border-radius: 15px;
+  background-color: #27177d;
+  text-align: center;
+  padding: 10px;
+}
+.x-product-place-bid-button{
+  width: 100%;
+  height: 40px;
+  background-image: linear-gradient( to right,#df3207 0%,#f37820 100% );
+  border-radius: 15px;
+  border: none;
+}
+.x-product-place-bid-button:focus{
+  width: 100%;
+  height: 40px;
+  background-image: linear-gradient( to right,#df3207 0%,#f37820 100% );
+  border-radius: 15px;
+  border: none;
+  outline: none;
+}
+.x-collection-browse-marketplace-button{
+  width: 250px;
+  height: 40px;
+  background-image: linear-gradient( to right,#df3207 0%,#f37820 100% );
+  border-radius: 15px;
+  border: none;
+  color: white;
+}
+.x-collection-browse-marketplace-button:focus{
+  width: 250px;
+  height: 40px;
+  background-image: linear-gradient( to right,#df3207 0%,#f37820 100% );
+  border-radius: 15px;
+  border: none;
+  outline: none;
+  color: white;
+}
+.x-faq-more-content{
+  margin-left: 50px;
+  padding-left: 20px;
+  border-left: 3px solid #ef4a23;
+}
+.x-community-open-button span{
+  color: white;
+  border: none;
+}
+.x-community-open-button:focus{
+  color: white;
+  border: none;
+  outline: none;
+}
+.x-community-open-button span:hover{
+  color: blue;
+}
+.css-2b097c-container{
+  position: absolute!important;
+  background-color: white;
+  border-radius: 5px;
+  z-index: 7;
+}
+.x-autocomplete-open-button{
+  background-color: #2f1f85;
+  border-radius: 20px;
+}
+.x-autocomplete-open-button button:focus{
+  outline: none;
+}
+#x-customized-menu .MuiPaper-root{
+  background-color: #11093c!important;
+  border: none;
+  border-radius: 10px;
+}
+#x-customized-user-modal .MuiPaper-root{
+  background-color: #11093c!important;
+  border: none;
+  border-radius: 10px;
+  top: 90px!important;
+}
+.x-community-open-button-content:focus{
+  outline: none;
+}
+.x-community-open-button-item{
+  cursor: pointer;
+  padding-top: 1px;
+  padding-bottom: 1px;
+}
+.x-community-open-button-item .MuiListItemText-root span{
+  color: #97a4fe;
+  font-size: 15px;
+  font-weight: 600;
+  font-family: 'initial';
+}
+.x-community-open-button-item:hover{
+  background-color: #1b0e60!important;
+}
+.x-discussion-latest-card{
+  background-color: #160b4c;
+  border-radius: 5px;
+}
+.x-initial-modal-list-item{
+  font-size: 20px;
+  color: #b6f7f4;
+  font-weight: 600;
+  font-family: initial;
+  cursor: pointer;
+}
+.x-initial-modal-list-item:hover{
+  font-size: 20px;
+  color: #46f7f4;
+  font-weight: 600;
+  font-family: initial;
+  cursor: pointer;
+}
+.x-manage-fund-button{
+  width: 300px;
+  height: 40px;
+  background-image: linear-gradient( to right,#df3207 0%,#f37820 100% );
+  border-radius: 15px;
+  border: none;
+}
+.x-manage-fund-button:focus{
+  width: 300px;
+  height: 40px;
+  background-image: linear-gradient( to right,#df3207 0%,#f37820 100% );
+  border-radius: 15px;
+  border: none;
+  outline: none;
+}
+.MuiInputAdornment-root.MuiInputAdornment-positionStart .MuiTypography-colorTextSecondary{
+  color: #09e1f6;
+}
+.x-get-verified-button{
+  background-color: #130a43;
+  border-radius: 20px;
+  width: 120px;
+  height: 40px;
+  border: none;
+  outline: none;
+  color: #e05b1c;
+  font-family: initial;
+  float: right;
+}
+.x-get-verified-button:focus{
+  background-color: #130a43;
+  border-radius: 20px;
+  width: 120px;
+  height: 40px;
+  border: none;
+  outline: none;
+  color: #e05b1c;
+  font-family: initial;
+  float: right;
+}
+.x-width-180{
+  width: 180px;
+}
+.x-onsale-modal-body{
+  overflow-y: hidden!important;
+}
+.x-onsale-price input{
+  border: none;
+  background-color: #b6f7f4;
+  border-radius: 10px;
+  outline: none;
+  padding: 1%;
+  margin: 1%;
+}
+.MuiFormHelperText-root{
+  color: red!important;
+}
+.MuiDialog-container .MuiPaper-root{
+  height: 180px!important;
+  width: 480px;
+  overflow: hidden;
+  color: white;
+}
+.MuiDialogContentText-root{
+  color: white!important;
+}
+
